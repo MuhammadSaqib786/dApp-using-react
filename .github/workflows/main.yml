@@ -31,6 +31,8 @@ jobs:
         # Yarn command
         cmd: install # npm install/ yarn install
     
+    - name: adding material ui
+      run: yarn add @material-ui/core/styles
     - name: Creating build
       run: yarn build
     
