@@ -20,11 +20,7 @@ export default function MainGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
-        <Grid
-          item
-          xs={4}
-          style={{ backgroundColor: "blue", height: "200px" }}
-        ></Grid>
+        <Grid item xs={4}></Grid>
         <Grid item xs={8}>
           <CreatePoll />
         </Grid>

@@ -35,7 +35,7 @@ export default function Header() {
           <Button
             color="inherit"
             onClick={() => {
-              value[1](true);
+              value[1](!value[0]);
             }}
           >
             Create Poll
